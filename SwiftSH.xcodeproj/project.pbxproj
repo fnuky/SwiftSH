@@ -465,6 +465,7 @@
 		180BD2141B4C622D000DB241 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
@@ -474,6 +475,7 @@
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/libssh2";
 				INFOPLIST_FILE = SwiftSH/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/libssh2";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tommasomadonia.SwiftSH;
@@ -488,6 +490,7 @@
 		180BD2151B4C622D000DB241 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
@@ -497,6 +500,7 @@
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/libssh2";
 				INFOPLIST_FILE = SwiftSH/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/libssh2";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tommasomadonia.SwiftSH;
